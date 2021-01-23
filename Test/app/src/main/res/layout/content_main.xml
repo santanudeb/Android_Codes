@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/dial"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:text="Dial number"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:text="Toast"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/show_location"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:text="Show Location"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/open_webpage"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:text="Open Webpage"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/viewIntent"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:text="View Intent"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/letsGetPro"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:text="Let's get Pro"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
